@@ -2,10 +2,24 @@
     width: 300px;
     margin: 50px auto 0;
     padding: 50px;
-    border: 1px solid #ccc;
+    border: 1px solid #03a7f9;
     border-radius: 50px;
   }
 
+  body{
+    background-image: url("sky.jpg");
+  }
+
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+
+  img.avatar {
+    width: 20%;
+    border-radius: 50%;
+  }
   
   .glow {
     font-size: 50px;
@@ -40,7 +54,7 @@ input {
 }
 
 button {
-    width: 100%;
+    width: 100%; 
     padding: 10px;
     margin-top: 10px;
     background-color: #4CAF50;
